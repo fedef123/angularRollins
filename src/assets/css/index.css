@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+ body{
+    background-color: #4bb3ad;
+ }
+#logo{
+    height: 80px;
+    
+}
+#Titulo{
+    color: azure;
+    font-family: 'Dancing Script', cursive;
+    font-size:65px;
+    
+}
+#items{
+    align-items: flex-end;
+}
+#formatoImagen{
+    width: 100px;
+    height: 500px;
+    margin-top: 40px;
+    
+}
+#formatoCarousel{
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 2%;
+    margin-bottom: 5%;
+
+}
+#tituloCarousel{
+    text-align: center;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border: 2px solid rgb(56, 47, 47);
+}
+nav{
+    height: 80px;
+    
+}
+footer{
+    margin: 0px;
+    padding: 0px;
+    
+    
+  }
+.container-fluid{
+    margin: 0px;
+    padding: 0px;
+}
+
+@media screen and (min-width: 0px) and (max-width:740px) {
+
+   #Titulo{
+        display: none;
+   } 
+   #logo {
+    height: 70px;
+   }
+   #formatoImagen{
+    margin-top: 1px;   
+    width: 50px;
+    height: 200px;
+    margin-top: 40px;
+    
+}
+    #tituloCarousel{
+    text-align: center;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 16px;
+    border: 2px solid rgb(56, 47, 47);
+}
+nav{
+    height: 120px;
+    
+}
+}
